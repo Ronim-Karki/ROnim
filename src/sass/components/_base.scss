@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Jost&family=Open+Sans&display=swap');
+//Color Variables
+$color-red: #b9937e;
+
+$color-black: #000;
+$color-light-grey: #5cdb95;
+$color-bright-grey: #eeeeee;
+$color-white: #fff;
+$color-grey-light-1: #f9f7f6;
+$color-grey-light-2: #aaa;
+$color-logo: #8bdede;
+$color-grey-dark-1: #54483a;
+$color-grey-dark-2: #6d5d4b;
+$font-primary: 'Architects Daughter', cursive;
+
+//Fonts
+$font-display: 'Jost', sans-serif;
+$font-normal: 'Open Sans', sans-serif;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+body {
+  font-family: $font-display;
+
+  background-color: $color-logo;
+}
